@@ -1,0 +1,50 @@
+
+
+body
+{
+background-color: white;
+}
+
+#topp
+{
+  float: left;
+  width:15vw;
+  height:5vh;
+}
+
+#topp a
+{
+  background-color:#D0D0D0 ;
+  color:black;
+  text-decoration: none;
+  display: block;
+  padding:15px;
+}
+
+#topp a:hover
+{
+  color:red;
+
+}
+
+#yopp a:active
+{
+  background-color: green;
+  color: white;
+}
+
+#mac
+{
+  text-decoration: none;
+  color:black;
+  font-size: 3vh;
+}
+
+#cont
+{
+  float: left;
+  width:60vw;
+  height:80vh;
+
+
+}

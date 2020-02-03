@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!--definerar doctypen-->
+<html lang="sv"> <!--upnar html och definerar språket -->
+<head><!--upnar head-->
+  <link href="cssmapp/inf.css" rel="stylesheet">
+<title>mec </title><!--låter en besrema titlen av hemsidan-->
+<meta charset="utf-8"> <!--låret en anvenda fler karaktärer som å,ä och ö-->
+<script>
+$.get("texta/mac.txt", function(data){
+ document.getElementById("mac").innerHTML = data;
+});
+</script>
+</head><!--stenger head-->
+<body><!--öpnar body-->
+  <div id=topp>
+    <a href=index.html>karta</a>
+  </div
+  <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+      <p id = "mac"></P>
+
+</body><!--stenger body-->
+</html><!--stenger html-->
