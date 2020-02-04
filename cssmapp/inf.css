@@ -10,6 +10,8 @@ background-color: #3399FF;
   float: left;
   width:60vw;
   height:5vh;
+  border: 0.5vw solid #C0C0C0;
+  background-color:#D0D0D0;
 }
 
 #topp a
