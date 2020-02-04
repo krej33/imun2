@@ -2,7 +2,7 @@
 
 body
 {
-background-color: white;
+background-color: #3399FF;
 }
 
 #topp
@@ -45,5 +45,6 @@ background-color: white;
   float: left;
   width:60vw;
   height:80vh;
-
+  border: 0.5vw solid #C0C0C0;
+  background-color:#D0D0D0;
 }
