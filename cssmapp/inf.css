@@ -15,7 +15,7 @@ background-color: #3399FF;
 {
   float: left;
   width:60vw;
-  height:5vh;
+  height:10vh;
   border: 0.5vw solid #C0C0C0;
   background-color:#D0D0D0;
 }
@@ -26,7 +26,6 @@ background-color: #3399FF;
   color:black;
   text-decoration: none;
   display: block;
-  padding:15px;
 }
 
 #topp a:hover
@@ -35,11 +34,6 @@ background-color: #3399FF;
 
 }
 
-#yopp a:active
-{
-  background-color: green;
-  color: white;
-}
 
 #mac
 {
