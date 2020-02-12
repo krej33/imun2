@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!--definerar doctypen-->
+<html lang="sv"> <!--upnar html och definerar språket -->
+<head><!--upnar head-->
+  <link href="cssmapp/inf.css" rel="stylesheet">
+  <title>KTC </title><!--låter en besrema titlen av hemsidan-->
+  <meta charset="utf-8"> <!--låret en anvenda fler karaktärer som å,ä och ö-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!-- Copy a document -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--script för att lenka txt-->
+</head><!--stenger head-->
+<body><!--öpnar body-->
+  <script>
+  $.get("texta/VKTC.txt", function(data){
+    document.getElementById("VKTC").innerHTML = data;
+  });
+  </script>
+  <div id="topp">
+    <a href=index.html>karta</a>
+  </div>
+  <div id="cont">
+      <p id="VKTC"></P>
+  </div>
+</body><!--stenger body-->
+</html><!--stenger html-->

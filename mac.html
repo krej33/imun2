@@ -2,20 +2,24 @@
 <html lang="sv"> <!--upnar html och definerar språket -->
 <head><!--upnar head-->
   <link href="cssmapp/inf.css" rel="stylesheet">
-<title>mec </title><!--låter en besrema titlen av hemsidan-->
-<meta charset="utf-8"> <!--låret en anvenda fler karaktärer som å,ä och ö-->
-<script>
-$.get("texta/mac.txt", function(data){
- document.getElementById("mac").innerHTML = data;
-});
-</script>
+  <title>KTC </title><!--låter en besrema titlen av hemsidan-->
+  <meta charset="utf-8"> <!--låret en anvenda fler karaktärer som å,ä och ö-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!-- Copy a document -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--script för att lenka txt-->
 </head><!--stenger head-->
 <body><!--öpnar body-->
-  <div id=topp>
+  <script>
+  $.get("texta/mac.txt", function(data){
+    document.getElementById("mac").innerHTML = data;
+  });
+  </script>
+  <div id="topp">
     <a href=index.html>karta</a>
-  </div
-  <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
-      <p id = "mac"></P>
-
+  </div>
+  <div id="cont">
+      <p id="mac"></P>
+  </div>
 </body><!--stenger body-->
 </html><!--stenger html-->

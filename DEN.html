@@ -2,13 +2,24 @@
 <html lang="sv"> <!--upnar html och definerar språket -->
 <head><!--upnar head-->
   <link href="cssmapp/inf.css" rel="stylesheet">
-<title>mec </title><!--låter en besrema titlen av hemsidan-->
-<meta charset="utf-8"> <!--låret en anvenda fler karaktärer som å,ä och ö-->
+  <title>KTC </title><!--låter en besrema titlen av hemsidan-->
+  <meta charset="utf-8"> <!--låret en anvenda fler karaktärer som å,ä och ö-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!-- Copy a document -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--script för att lenka txt-->
 </head><!--stenger head-->
 <body><!--öpnar body-->
-  <div id=topp>
+  <script>
+  $.get("texta/DEN.txt", function(data){
+    document.getElementById("DEN").innerHTML = data;
+  });
+  </script>
+  <div id="topp">
     <a href=index.html>karta</a>
-  </div
-  <p> </p>
+  </div>
+  <div id="cont">
+      <p id="DEN"></P>
+  </div>
 </body><!--stenger body-->
 </html><!--stenger html-->
